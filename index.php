@@ -143,7 +143,7 @@ use PHPMailer\PHPMailer\PHPMailer;
               <h3 class="home__subtitle">Etudiant en Informatique</h3>
               <p class="home__description">
                 Expérience de haut niveau dans la conception et le développement
-                de sites Web et de logiciels, produisant un travail de qualité.
+                de sites web et de logiciels, produisant un travail de qualité.
               </p>
               <a href="#contact" class="button button--flex">
                 Me contacter <i class="uil uil-message button__icon"></i>
@@ -170,14 +170,14 @@ use PHPMailer\PHPMailer\PHPMailer;
 
           <div class="about__data">
             <p class="about__description">
-              Étudiant en L3-Informatique et passionné par le domaine de
-              l'informatique et du web avec une connaissance approfondie et
+              Étudiant en Master 1 IISC-SIC et passionné par le domaine de
+              l'informatique, de la data et du web avec une connaissance approfondie et
               quelques années d'expérience. J'ai toujours à coeur de réussir
               proprement et correctement tout les projets que j'entreprends.
             </p>
             <div class="about__info">
               <div>
-                <span class="about__info-title">3+</span>
+                <span class="about__info-title">4+</span>
                 <span class="about__info-name"
                   >Années <br />
                   d'expérience</span
@@ -185,7 +185,7 @@ use PHPMailer\PHPMailer\PHPMailer;
               </div>
 
               <div>
-                <span class="about__info-title">5+</span>
+                <span class="about__info-title">7+</span>
                 <span class="about__info-name"
                   >Projets <br />
                   réalisés</span
@@ -220,7 +220,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div>
                   <h2 class="skills__title">Développeur Frontend</h2>
-                  <span class="skills__subtitle">Plus de 2 ans</span>
+                  <span class="skills__subtitle">Plus de 3 ans</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -260,7 +260,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">jQuery</h3>
-                    <span class="skills__number">70%</span>
+                    <span class="skills__number">65%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__jquery"></span>
@@ -270,7 +270,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">XML</h3>
-                    <span class="skills__number">80%</span>
+                    <span class="skills__number">85%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__xml"></span>
@@ -286,7 +286,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div>
                   <h2 class="skills__title">Développeur Backend</h2>
-                  <span class="skills__subtitle">Plus de 2 ans</span>
+                  <span class="skills__subtitle">Plus de 3 ans</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -306,7 +306,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">SQL</h3>
-                    <span class="skills__number">75%</span>
+                    <span class="skills__number">85%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__sql"></span>
@@ -326,7 +326,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">Java</h3>
-                    <span class="skills__number">65%</span>
+                    <span class="skills__number">75%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__java"></span>
@@ -344,7 +344,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div>
                   <h2 class="skills__title">Développeur</h2>
-                  <span class="skills__subtitle">Plus de 3 ans</span>
+                  <span class="skills__subtitle">Plus de 4 ans</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -374,7 +374,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">Python</h3>
-                    <span class="skills__number">45%</span>
+                    <span class="skills__number">75%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__python"></span>
@@ -401,11 +401,11 @@ use PHPMailer\PHPMailer\PHPMailer;
               Formation
             </div>
 
-            <!-- <div class="qualification__button button-flex" data-target="#work">
+            <div class="qualification__button button-flex" data-target="#work">
               <i class="uil uil-briefcase-alt qualification__icon"></i>
               Expériences <br />
               Professionnelles
-            </div> -->
+            </div>
           </div>
 
           <div class="qualification__sections">
@@ -418,13 +418,79 @@ use PHPMailer\PHPMailer\PHPMailer;
               <!--==================== QUALIFICATION 1 ====================-->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Licence Informatique</h3>
+                  <h3 class="qualification__title">Master 1 IISC-SIC FI parcours SID</h3>
                   <span class="qualification__subtitle"
                     >France - CY Cergy Paris Université</span
                   >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2019-2022
+                    2022 - 2023
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">
+                    Licence Informatique
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >France - CY Cergy Paris Université</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019 - 2022
+                  </div>
+                </div>
+
+
+              </div>
+
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Baccalauréat scientifique</h3>
+                  <span class="qualification__subtitle"
+                    >France - Lycée Fragonard</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2016 - 2019
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qualification__content" data-content="data-content" id="work">
+            <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Stage<span class="d-block">Développeur Web</span></h3>
+                  <span class="qualification__subtitle"
+                    >France - École Supérieure Pour les Talents Atypiques</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Avril 2022 - Juin 2022
                   </div>
                 </div>
 
@@ -442,43 +508,8 @@ use PHPMailer\PHPMailer\PHPMailer;
                   <span class="qualification__rounder"></span>
                   <!--<span class="qualification__line"></span>-->
                 </div>
-
-                <div>
-                  <h3 class="qualification__title">
-                    Baccalauréat scientifique
-                  </h3>
-                  <span class="qualification__subtitle"
-                    >France - Lycée Fragonard</span
-                  >
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2016-2019
-                  </div>
-                </div>
               </div>
             </div>
-
-            <!--==================== QUALIFICATION CONTENT 2 ====================-->
-            <!-- <div class="qualification__content" data-content="data-content" id="work"> -->
-            <!--==================== QUALIFICATION 1 ====================-->
-            <!-- <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Stage</h3>
-                  <span class="qualification__subtitle"
-                    >France - CY Cergy Paris Université</span
-                  >
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2019-2022
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
       </section>
@@ -731,11 +762,19 @@ use PHPMailer\PHPMailer\PHPMailer;
           </div>
 
           <div class="work__container container grid">
+          <div class="work__card mix">
+              <img src="assets/img/Projet_labo.png" alt="Neo4j base de données" class="work__img" />
+
+              <h3 class="work__title">Projet de Laboratoire</h3>
+              <p class="work__description">Exploration, visualisation et analyse d'une base de données graph sur des données historiques.</p>
+
+            </div>
+
             <div class="work__card mix web">
               <img src="assets/img/24hWeather.png" alt="Page d'accueil de 24hWeather" class="work__img" />
 
               <h3 class="work__title">24hWeather</h3>
-              <p class="work__description">Site météorologique professionnel</p>
+              <p class="work__description">Site météorologique professionnel.</p>
 
               <div class="portfolio__links">
                 <a
@@ -759,8 +798,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 
               <h3 class="work__title">Footista</h3>
               <p class="work__description">
-                Site d’information sur le football professionel interagissant
-                avec une base de données
+                Site d'information sur le football professionel interagissant
+                avec une base de données.
               </p>
 
               <div class="portfolio__links">
@@ -803,7 +842,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
               <h3 class="work__title">Cinéflix</h3>
               <p class="work__description">
-                Site sur les films et séries utilisant des requêtes API
+                Site sur les films et séries utilisant des requêtes API.
               </p>
 
               <div class="portfolio__links">
@@ -847,7 +886,7 @@ use PHPMailer\PHPMailer\PHPMailer;
               <h3 class="work__title">Go</h3>
               <p class="work__description">
                 Jeu de GO chinois avec ajout de règles et de contraintes
-                spécifiques
+                spécifiques.
               </p>
 
               <div class="portfolio__links">

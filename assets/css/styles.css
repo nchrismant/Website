@@ -549,11 +549,11 @@ button:active {
 }
 
 .skills__jquery {
-  width: 70%;
+  width: 65%;
 }
 
 .skills__xml {
-  width: 80%;
+  width: 85%;
 }
 
 .skills__php {
@@ -561,7 +561,7 @@ button:active {
 }
 
 .skills__sql {
-  width: 75%;
+  width: 85%;
 }
 
 .skills__symfony {
@@ -569,7 +569,7 @@ button:active {
 }
 
 .skills__java {
-  width: 65%;
+  width: 75%;
 }
 
 .skills__c {
@@ -581,7 +581,7 @@ button:active {
 }
 
 .skills__python {
-  width: 45%;
+  width: 75%;
 }
 
 .skills__close .skills__list {
@@ -608,7 +608,7 @@ button:active {
 .qualification__button {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .qualification__button:hover {
@@ -668,6 +668,10 @@ button:active {
 
 .qualification__button.qualification__active {
   color: var(--first-color);
+}
+
+.d-block {
+  display: block;
 }
 
 /*==================== SERVICES ====================*/
