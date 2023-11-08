@@ -197,6 +197,10 @@ button:active {
   margin-right: var(--mb-1-5);
 }
 
+.container.mini {
+  max-width: 238px;
+}
+
 .grid {
   display: grid;
   gap: 1.5rem;
@@ -549,11 +553,11 @@ button:active {
 }
 
 .skills__jquery {
-  width: 70%;
+  width: 65%;
 }
 
 .skills__xml {
-  width: 80%;
+  width: 85%;
 }
 
 .skills__php {
@@ -561,27 +565,23 @@ button:active {
 }
 
 .skills__sql {
+  width: 85%;
+}
+
+.skills__nosql {
   width: 75%;
 }
 
-.skills__symfony {
-  width: 55%;
-}
-
 .skills__java {
-  width: 65%;
+  width: 75%;
 }
 
 .skills__c {
   width: 70%;
 }
 
-.skills__assembleur {
-  width: 75%;
-}
-
 .skills__python {
-  width: 45%;
+  width: 75%;
 }
 
 .skills__close .skills__list {
@@ -608,7 +608,7 @@ button:active {
 .qualification__button {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .qualification__button:hover {
@@ -670,10 +670,19 @@ button:active {
   color: var(--first-color);
 }
 
+.d-block {
+  display: block;
+}
+
 /*==================== SERVICES ====================*/
 .services__container {
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.services__top {
+  display: block;
+  margin-bottom: 30px;
 }
 
 .services__content {
@@ -842,6 +851,10 @@ button:active {
 .swiper-button-next,
 .swiper-pagination-bullet {
   outline: none;
+}
+
+.swiper-pagination.no-abs {
+  position: initial;
 }
 
 /*==================== WORK ===========================*/

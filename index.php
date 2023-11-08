@@ -102,6 +102,13 @@ use PHPMailer\PHPMailer\PHPMailer;
               >
                 <i class="uil uil-github-alt"></i>
               </a>
+              <a
+              href="https://gitlab.com/nchriqui"
+              target="_blank"
+              class="home__social-icon"
+            >
+              <i class="uil uil-gitlab"></i>
+            </a>
             </div>
             <!-- <div class="home__img">
               <svg
@@ -140,10 +147,10 @@ use PHPMailer\PHPMailer\PHPMailer;
             </div> -->
             <div class="home__data">
               <h1 class="home__title">Salut, je suis Nathan</h1>
-              <h3 class="home__subtitle">Etudiant en Informatique</h3>
+              <h3 class="home__subtitle">Etudiant en Data Science &amp; Machine Learning</h3>
               <p class="home__description">
-                Expérience de haut niveau dans la conception et le développement
-                de sites Web et de logiciels, produisant un travail de qualité.
+                Expertise approfondie dans la conception et le développement de solutions basées sur le machine learning et le deep learning, 
+                et la manipulation efficace des données, générant des résultats exceptionnels et de haute qualité.
               </p>
               <a href="#contact" class="button button--flex">
                 Me contacter <i class="uil uil-message button__icon"></i>
@@ -170,14 +177,15 @@ use PHPMailer\PHPMailer\PHPMailer;
 
           <div class="about__data">
             <p class="about__description">
-              Étudiant en L3-Informatique et passionné par le domaine de
-              l'informatique et du web avec une connaissance approfondie et
-              quelques années d'expérience. J'ai toujours à coeur de réussir
-              proprement et correctement tout les projets que j'entreprends.
+              Étudiant en Master 2 Recherche et passionné par le domaine de la data, et notamment du Machine
+              Learning disposant d'une connaissance
+              approfondie et quelques années d'expérience.
+              J'ai toujours à cœur de réussir proprement et
+              correctement tout les projets que j'entreprends.
             </p>
             <div class="about__info">
               <div>
-                <span class="about__info-title">3+</span>
+                <span class="about__info-title">4+</span>
                 <span class="about__info-name"
                   >Années <br />
                   d'expérience</span
@@ -185,7 +193,7 @@ use PHPMailer\PHPMailer\PHPMailer;
               </div>
 
               <div>
-                <span class="about__info-title">5+</span>
+                <span class="about__info-title">7+</span>
                 <span class="about__info-name"
                   >Projets <br />
                   réalisés</span
@@ -216,11 +224,79 @@ use PHPMailer\PHPMailer\PHPMailer;
             <!--==================== SKILLS 1 ====================-->
             <div class="skills__content skills__open">
               <div class="skills__header">
+                <i class="uil uil-code-branch skills__icon"></i>
+
+                <div>
+                  <h2 class="skills__title">Développeur</h2>
+                  <span class="skills__subtitle">Plus de 4 ans</span>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__python"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">C</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__c"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">SQL</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__sql"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">NoSQL</h3>
+                    <span class="skills__number">75%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__nosql"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__number">75%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__java"></span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div>
+            <!--==================== SKILLS 2 ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
                 <i class="uil uil-brackets-curly skills__icon"></i>
 
                 <div>
                   <h2 class="skills__title">Développeur Frontend</h2>
-                  <span class="skills__subtitle">Plus de 2 ans</span>
+                  <span class="skills__subtitle">Plus de 3 ans</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -260,7 +336,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">jQuery</h3>
-                    <span class="skills__number">70%</span>
+                    <span class="skills__number">65%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__jquery"></span>
@@ -270,7 +346,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">XML</h3>
-                    <span class="skills__number">80%</span>
+                    <span class="skills__number">85%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__xml"></span>
@@ -279,14 +355,14 @@ use PHPMailer\PHPMailer\PHPMailer;
               </div>
             </div>
 
-            <!--==================== SKILLS 2 ====================-->
+            <!--==================== SKILLS 3 ====================-->
             <div class="skills__content skills__close">
               <div class="skills__header">
                 <i class="uil uil-server-network skills__icon"></i>
 
                 <div>
                   <h2 class="skills__title">Développeur Backend</h2>
-                  <span class="skills__subtitle">Plus de 2 ans</span>
+                  <span class="skills__subtitle">Plus de 3 ans</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -303,86 +379,10 @@ use PHPMailer\PHPMailer\PHPMailer;
                   </div>
                 </div>
 
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">SQL</h3>
-                    <span class="skills__number">75%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__sql"></span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Symfony</h3>
-                    <span class="skills__number">55%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__symfony"></span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Java</h3>
-                    <span class="skills__number">65%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__java"></span>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
 
-          <div>
-            <!--==================== SKILLS 3 ====================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="uil uil-code-branch skills__icon"></i>
-
-                <div>
-                  <h2 class="skills__title">Développeur</h2>
-                  <span class="skills__subtitle">Plus de 3 ans</span>
-                </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">C</h3>
-                    <span class="skills__number">70%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__c"></span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Assembleur</h3>
-                    <span class="skills__number">75%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__assembleur"></span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Python</h3>
-                    <span class="skills__number">45%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__python"></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -401,11 +401,11 @@ use PHPMailer\PHPMailer\PHPMailer;
               Formation
             </div>
 
-            <!-- <div class="qualification__button button-flex" data-target="#work">
+            <div class="qualification__button button-flex" data-target="#work">
               <i class="uil uil-briefcase-alt qualification__icon"></i>
               Expériences <br />
               Professionnelles
-            </div> -->
+            </div>
           </div>
 
           <div class="qualification__sections">
@@ -418,13 +418,108 @@ use PHPMailer\PHPMailer\PHPMailer;
               <!--==================== QUALIFICATION 1 ====================-->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Licence Informatique</h3>
+                  <h3 class="qualification__title">Master 2 IISC-SIC parcours DSML</h3>
+                  <span class="qualification__subtitle"
+                    >France - ENSEA &amp; CY Cergy Paris Université</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2023 - 2024
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Master 1 IISC-SIC FI parcours SID</h3>
                   <span class="qualification__subtitle"
                     >France - CY Cergy Paris Université</span
                   >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2019-2022
+                    2022 - 2023
+                  </div>
+                </div>
+
+              </div>
+
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+
+                <div>
+                  <h3 class="qualification__title">
+                    Licence Informatique
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >France - CY Cergy Paris Université</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019 - 2022
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+              </div>
+
+              <!--==================== QUALIFICATION 4 ====================-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                
+                <div>
+                  <h3 class="qualification__title">Baccalauréat scientifique</h3>
+                  <span class="qualification__subtitle"
+                    >France - Lycée Fragonard</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2016 - 2019
+                  </div>
+                </div>
+
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qualification__content" data-content="data-content" id="work">
+            <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Stage<span class="d-block">Développeur Web</span></h3>
+                  <span class="qualification__subtitle"
+                    >France - École Supérieure Pour les Talents Atypiques</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Avril 2022 - Juin 2022
                   </div>
                 </div>
 
@@ -442,43 +537,8 @@ use PHPMailer\PHPMailer\PHPMailer;
                   <span class="qualification__rounder"></span>
                   <!--<span class="qualification__line"></span>-->
                 </div>
-
-                <div>
-                  <h3 class="qualification__title">
-                    Baccalauréat scientifique
-                  </h3>
-                  <span class="qualification__subtitle"
-                    >France - Lycée Fragonard</span
-                  >
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2016-2019
-                  </div>
-                </div>
               </div>
             </div>
-
-            <!--==================== QUALIFICATION CONTENT 2 ====================-->
-            <!-- <div class="qualification__content" data-content="data-content" id="work"> -->
-            <!--==================== QUALIFICATION 1 ====================-->
-            <!-- <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Stage</h3>
-                  <span class="qualification__subtitle"
-                    >France - CY Cergy Paris Université</span
-                  >
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    2019-2022
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
       </section>
@@ -488,8 +548,67 @@ use PHPMailer\PHPMailer\PHPMailer;
         <h2 class="section__title">Services</h2>
         <span class="section__subtitle">Ce que je sais faire</span>
 
-        <div class="services__container container grid">
+        <div class="services__container container mini services__top">
           <!--==================== SERVICES 1 ====================-->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-brain services__icon"></i>
+              <h3 class="services__title">
+                Technologies <br />
+                de l'Information
+              </h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              En savoir plus
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Technologies <br />
+                  de l'Information
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Machine Learning | Deep Learning</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>
+                      Apprentissage supervisé, non supervisé,  par renforcement
+                    </p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Intelligence Artificielle</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Traitement d'Images</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Big Data</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Data Mining | Intégration de données</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="services__container container grid">
+          <!--==================== SERVICES 2 ====================-->
           <div class="services__content">
             <div>
               <i class="uil uil-web-grid services__icon"></i>
@@ -522,7 +641,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
                     <p>
-                      Elaborer la conception et modélisation d’une base de
+                      Elaborer la conception et modélisation d'une base de
                       données.
                     </p>
                   </li>
@@ -551,7 +670,7 @@ use PHPMailer\PHPMailer\PHPMailer;
             </div>
           </div>
 
-          <!--==================== SERVICES 2 ====================-->
+          <!--==================== SERVICES 3 ====================-->
           <div class="services__content">
             <div>
               <i class="uil uil-arrow services__icon"></i>
@@ -614,6 +733,39 @@ use PHPMailer\PHPMailer\PHPMailer;
             <!--==================== PORTFOLIO 1 ====================-->
             <div class="portfolio__content grid swiper-slide">
               <img
+                src="assets/img/reco_window.png" 
+                alt="Page utilisateur"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Restaurant intelligent (connecté)</h3>
+                <p class="portfolio__description">
+                  Aide à la gestion d'un restaurant de type self-service via une solution
+                  intelligente alliant traitement d'images et recommandations.
+                </p>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/Projet_labo.png" 
+                alt="Neo4j base de données"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Projet de Laboratoire (2 mois)</h3>
+                <p class="portfolio__description">
+                  Exploration, visualisation et analyse d'une base de données graph sur des données historiques.
+                </p>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
                 src="assets/img/24hWeather.png"
                 alt="Page d'accueil de 24hWeather"
                 class="portfolio__img"
@@ -622,7 +774,7 @@ use PHPMailer\PHPMailer\PHPMailer;
               <div class="portfolio__data">
                 <h3 class="portfolio__title">24hWeather</h3>
                 <p class="portfolio__description">
-                  Site météorologique professionnel
+                  Site météorologique professionnel.
                 </p>
                 <div class="portfolio__links">
                   <a
@@ -643,70 +795,6 @@ use PHPMailer\PHPMailer\PHPMailer;
               </div>
             </div>
 
-            <!--==================== PORTFOLIO 2 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/footista.png"
-                alt="Page d'accueil de Footista"
-                class="portfolio__img"
-              />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Footista</h3>
-                <p class="portfolio__description">
-                  Site d’information sur le football professionel interagissant
-                  avec une base de données
-                </p>
-                <div class="portfolio__links">
-                  <a
-                    href="https://footista.alwaysdata.net/"
-                    class="button button--flex button--small portfolio__button"
-                  >
-                    Visiter
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </a>
-                  <a
-                    href="https://github.com/nchriqui/Footista"
-                    class="button button--flex button--small portfolio__button"
-                  >
-                    Code
-                    <i class="uil uil-brackets-curly button__icon"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 3 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/cineflix.png"
-                alt="Page d'accueil de Cinéflix"
-                class="portfolio__img"
-              />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Cinéflix</h3>
-                <p class="portfolio__description">
-                  Site sur les films et séries utilisant des requêtes API
-                </p>
-                <div class="portfolio__links">
-                  <a
-                    href="https://cineflix.alwaysdata.net/"
-                    class="button button--flex button--small portfolio__button"
-                  >
-                    Visiter
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </a>
-                  <a
-                    href="https://github.com/nchriqui/Cineflix"
-                    class="button button--flex button--small portfolio__button"
-                  >
-                    Code
-                    <i class="uil uil-brackets-curly button__icon"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div class="swiper-button-next">
@@ -726,16 +814,59 @@ use PHPMailer\PHPMailer\PHPMailer;
           <div class="work__filters">
             <span class="work__item active-work" data-filter="all">Tout</span>
             <span class="work__item" data-filter=".web">Web</span>
-            <span class="work__item" data-filter=".mobile">Mobile</span>
             <span class="work__item" data-filter=".logiciel">Logiciel</span>
           </div>
 
-          <div class="work__container container grid">
+          <div class="work__container container mini grid">
+
+            <div class="work__card mix">
+              <div class="portfolio__container container mini swiper-container">
+                <div class="swiper-wrapper">
+                  <!--==================== PORTFOLIO 1 ====================-->
+                  <div class=" swiper-slide">
+                    <img src="assets/img/reco_window.png" alt="Vue utilisateur" class="work__img" />
+                  </div>
+      
+      
+                  <!--==================== PORTFOLIO 2 ====================-->
+                  <div class="swiper-slide">
+                    <img src="assets/img/manager_window.png" alt="Vue restaurateur" class="work__img" />
+                  </div>
+      
+                </div>
+
+                <div class="swiper-button-next" style="visibility: hidden;">
+                  <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev" style="visibility: hidden;">
+                  <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+      
+                <div class="swiper-pagination no-abs"></div>
+              </div>
+      
+              <h3 class="work__title">Restaurant intelligent (connecté)</h3>
+              <p class="work__description">Aide à la gestion d'un restaurant de type self-service via une solution
+                intelligente alliant traitement d'images et recommandations.
+              </p>
+              
+            </div>
+
+            <div class="work__card mix">
+              <img src="assets/img/Projet_labo.png" alt="Neo4j base de données" class="work__img" />
+
+              <h3 class="work__title">Projet de Laboratoire (2 mois)</h3>
+              <p class="work__description"><span style="display: block; margin-bottom: 10px;">Collaboration internationale avec pour objectif la
+                conception et réalisation d'une base de données graph sur des données historiques.</span>
+                <span>Exploration, visualisation et analyse d'une base de données graph sur des données historiques.</span></p>
+
+            </div>
+
             <div class="work__card mix web">
               <img src="assets/img/24hWeather.png" alt="Page d'accueil de 24hWeather" class="work__img" />
 
               <h3 class="work__title">24hWeather</h3>
-              <p class="work__description">Site météorologique professionnel</p>
+              <p class="work__description">Site météorologique professionnel.</p>
 
               <div class="portfolio__links">
                 <a
@@ -759,8 +890,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 
               <h3 class="work__title">Footista</h3>
               <p class="work__description">
-                Site d’information sur le football professionel interagissant
-                avec une base de données
+                Site d'information sur le football professionel interagissant
+                avec une base de données.
               </p>
 
               <div class="portfolio__links">
@@ -803,7 +934,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
               <h3 class="work__title">Cinéflix</h3>
               <p class="work__description">
-                Site sur les films et séries utilisant des requêtes API
+                Site sur les films et séries utilisant des requêtes API.
               </p>
 
               <div class="portfolio__links">
@@ -847,7 +978,7 @@ use PHPMailer\PHPMailer\PHPMailer;
               <h3 class="work__title">Go</h3>
               <p class="work__description">
                 Jeu de GO chinois avec ajout de règles et de contraintes
-                spécifiques
+                spécifiques.
               </p>
 
               <div class="portfolio__links">
