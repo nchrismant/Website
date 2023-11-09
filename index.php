@@ -554,8 +554,8 @@ use PHPMailer\PHPMailer\PHPMailer;
             <div>
               <i class="uil uil-brain services__icon"></i>
               <h3 class="services__title">
-                Technologies <br />
-                de l'Information
+                Domaines <br />
+                de Spécialisation
               </h3>
             </div>
 
@@ -569,8 +569,8 @@ use PHPMailer\PHPMailer\PHPMailer;
             <div class="services__modal">
               <div class="services__modal-content">
                 <h4 class="services__modal-title">
-                  Technologies <br />
-                  de l'Information
+                  Domaines <br />
+                  de Spécialisation
                 </h4>
                 <i class="uil uil-times services__modal-close"></i>
 
