@@ -177,7 +177,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
           <div class="about__data">
             <p class="about__description">
-              Étudiant en Master 2 Recherche et passionné par le domaine de la data, et notamment du Machine
+              Étudiant en Master 2 Recherche DSML et passionné par le domaine de la data, et notamment du Machine
               Learning disposant d'une connaissance
               approfondie et quelques années d'expérience.
               J'ai toujours à cœur de réussir proprement et
@@ -418,7 +418,7 @@ use PHPMailer\PHPMailer\PHPMailer;
               <!--==================== QUALIFICATION 1 ====================-->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Master 2 IISC-SIC parcours DSML</h3>
+                  <h3 class="qualification__title">Master 2 IISC-SIC FI parcours Data Science et Machine Learning (DSML)</h3>
                   <span class="qualification__subtitle"
                     >France - ENSEA &amp; CY Cergy Paris Université</span
                   >
@@ -444,7 +444,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                 </div>
 
                 <div>
-                  <h3 class="qualification__title">Master 1 IISC-SIC FI parcours SID</h3>
+                  <h3 class="qualification__title">Master 1 IISC-SIC FI parcours Systèmes Intelligents et Distribués (SID)</h3>
                   <span class="qualification__subtitle"
                     >France - CY Cergy Paris Université</span
                   >
