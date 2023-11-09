@@ -489,7 +489,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                 </div>
                 
                 <div>
-                  <h3 class="qualification__title">Baccalauréat scientifique</h3>
+                  <h3 class="qualification__title">Baccalauréat scientifique Spécialité Mathématiques</h3>
                   <span class="qualification__subtitle"
                     >France - Lycée Fragonard</span
                   >
