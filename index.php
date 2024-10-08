@@ -767,7 +767,7 @@ use PHPMailer\PHPMailer\PHPMailer;
             <!--==================== PORTFOLIO 2 ====================-->
             <div class="portfolio__content grid swiper-slide">
               <img
-                src="assets/img/image.png" 
+                src="assets/img/SeeAble.png" 
                 alt="SeeAble"
                 class="portfolio__img"
               />
@@ -930,6 +930,15 @@ use PHPMailer\PHPMailer\PHPMailer;
               <p class="work__description">Aide à la gestion d'un restaurant de type self-service via une solution
                 intelligente alliant traitement d'images et recommandations.
               </p>
+
+              <div class="portfolio__links">
+                <a
+                  href="https://github.com/nchriqui/restaurant"
+                  class="work__button"
+                >
+                  Code <i class="uil uil-brackets-curly work__icon"></i>
+                </a>
+              </div>
               
             </div>
 
