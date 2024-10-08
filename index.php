@@ -147,11 +147,9 @@ use PHPMailer\PHPMailer\PHPMailer;
             </div> -->
             <div class="home__data">
               <h1 class="home__title">Salut, je suis Nathan</h1>
-              <h3 class="home__subtitle">Etudiant en Data Science &amp; Machine Learning</h3>
-              <p class="home__description">
-                Expertise approfondie dans la conception et le développement de solutions basées sur le machine learning et le deep learning, 
-                et la manipulation efficace des données, générant des résultats exceptionnels et de haute qualité.
-              </p>
+              <h3 class="home__subtitle">Diplômé d'un Master en Data Science &amp; Machine Learning</h3>
+              <!-- <p class="home__description">
+              </p> -->
               <a href="#contact" class="button button--flex">
                 Me contacter <i class="uil uil-message button__icon"></i>
               </a>
@@ -177,15 +175,15 @@ use PHPMailer\PHPMailer\PHPMailer;
 
           <div class="about__data">
             <p class="about__description">
-              Étudiant en Master 2 Recherche DSML et passionné par le domaine de la data, et notamment du Machine
-              Learning disposant d'une connaissance
-              approfondie et quelques années d'expérience.
+              Jeune diplômé d'un Master en Data Science et Machine Learning, à la recherche d'opportunités
+              dans le domaine de la science des données, du
+              machine learning, et de l'intelligence artificielle.
               J'ai toujours à cœur de réussir proprement et
               correctement tout les projets que j'entreprends.
             </p>
             <div class="about__info">
               <div>
-                <span class="about__info-title">4+</span>
+                <span class="about__info-title">5+</span>
                 <span class="about__info-name"
                   >Années <br />
                   d'expérience</span
@@ -193,7 +191,7 @@ use PHPMailer\PHPMailer\PHPMailer;
               </div>
 
               <div>
-                <span class="about__info-title">7+</span>
+                <span class="about__info-title">8+</span>
                 <span class="about__info-name"
                   >Projets <br />
                   réalisés</span
@@ -228,7 +226,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div>
                   <h2 class="skills__title">Développeur</h2>
-                  <span class="skills__subtitle">Plus de 4 ans</span>
+                  <span class="skills__subtitle">Plus de 5 ans</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -296,7 +294,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div>
                   <h2 class="skills__title">Développeur Frontend</h2>
-                  <span class="skills__subtitle">Plus de 3 ans</span>
+                  <span class="skills__subtitle">Plus de 4 ans</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -362,7 +360,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div>
                   <h2 class="skills__title">Développeur Backend</h2>
-                  <span class="skills__subtitle">Plus de 3 ans</span>
+                  <span class="skills__subtitle">Plus de 4 ans</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -510,16 +508,17 @@ use PHPMailer\PHPMailer\PHPMailer;
 
             <!--==================== QUALIFICATION CONTENT 2 ====================-->
             <div class="qualification__content" data-content="data-content" id="work">
-            <!--==================== QUALIFICATION 1 ====================-->
+
+              <!--==================== QUALIFICATION 1 ====================-->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Stage<span class="d-block">Développeur Web</span></h3>
+                  <h3 class="qualification__title">Stage Recherche</h3>
                   <span class="qualification__subtitle"
-                    >France - École Supérieure Pour les Talents Atypiques</span
+                    >France - ENSEA &amp; CY Cergy Paris Université</span
                   >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    Avril 2022 - Juin 2022
+                    Avril 2024 - Septembre 2024
                   </div>
                 </div>
 
@@ -535,9 +534,28 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div>
                   <span class="qualification__rounder"></span>
-                  <!--<span class="qualification__line"></span>-->
+                  <span class="qualification__line"></span>
+                </div>
+                
+                <div>
+                  <h3 class="qualification__title">Stage <span class="d-block">Développeur Web</span></h3>
+                  <span class="qualification__subtitle"
+                    >France - École Supérieure Pour les Talents Atypiques</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Avril 2022 - Juin 2022
+                  </div>
+                </div>
+
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
                 </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -733,6 +751,38 @@ use PHPMailer\PHPMailer\PHPMailer;
             <!--==================== PORTFOLIO 1 ====================-->
             <div class="portfolio__content grid swiper-slide">
               <img
+                src="assets/img/D3_hellinger_elec.png" 
+                alt="D3 avec Hellinger distance"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Explications (xAI) dans le cadre de données IoT</h3>
+                <p class="portfolio__description">
+                  Explication des détecteurs de concept drifts en utilisant les drifts virtuels (sur la distribution des données).
+                </p>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/image.png" 
+                alt="SeeAble"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Generalized deepfake detection with self-supervised learning</h3>
+                <p class="portfolio__description">
+                  Amélioration d'une technique de détection de deepfakes basée sur le self-supervised learning.
+                </p>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
                 src="assets/img/reco_window.png" 
                 alt="Page utilisateur"
                 class="portfolio__img"
@@ -747,7 +797,7 @@ use PHPMailer\PHPMailer\PHPMailer;
               </div>
             </div>
 
-            <!--==================== PORTFOLIO 2 ====================-->
+            <!--==================== PORTFOLIO 4 ====================-->
             <div class="portfolio__content grid swiper-slide">
               <img
                 src="assets/img/Projet_labo.png" 
@@ -760,38 +810,6 @@ use PHPMailer\PHPMailer\PHPMailer;
                 <p class="portfolio__description">
                   Exploration, visualisation et analyse d'une base de données graph sur des données historiques.
                 </p>
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 3 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="assets/img/24hWeather.png"
-                alt="Page d'accueil de 24hWeather"
-                class="portfolio__img"
-              />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">24hWeather</h3>
-                <p class="portfolio__description">
-                  Site météorologique professionnel.
-                </p>
-                <div class="portfolio__links">
-                  <a
-                    href="https://24hweather.alwaysdata.net/"
-                    class="button button--flex button--small portfolio__button"
-                  >
-                    Visiter
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </a>
-                  <a
-                    href="https://github.com/nchriqui/24hWeather"
-                    class="button button--flex button--small portfolio__button"
-                  >
-                    Code
-                    <i class="uil uil-brackets-curly button__icon"></i>
-                  </a>
-                </div>
               </div>
             </div>
 
@@ -822,17 +840,80 @@ use PHPMailer\PHPMailer\PHPMailer;
             <div class="work__card mix">
               <div class="portfolio__container container mini swiper-container">
                 <div class="swiper-wrapper">
-                  <!--==================== PORTFOLIO 1 ====================-->
-                  <div class=" swiper-slide">
+                  <!--==================== SWIPPER 1 ====================-->
+                  <div class="swiper-slide">
+                    <img src="assets/img/D3_hellinger_elec.png" alt="D3 avec Hellinger distance" class="work__img" />
+                  </div>
+            
+                  <!--==================== SWIPPER 2 ====================-->
+                  <div class="swiper-slide">
+                    <img src="assets/img/D3_kl_elec.png" alt="D3 avec KL-divergence" class="work__img" />
+                  </div>   
+                  
+                  <!--==================== SWIPPER 3 ====================-->
+                  <div class="swiper-slide">
+                    <img src="assets/img/Feature importance elec.png" alt="Feature importance" class="work__img" />
+                  </div>    
+                </div>
+
+                <div class="swiper-button-next" style="visibility: hidden;">
+                  <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev" style="visibility: hidden;">
+                  <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+      
+                <div class="swiper-pagination no-abs"></div>
+              </div>
+
+              <h3 class="work__title">Explications (xAI) dans le cadre <span class="d-block">de données IoT</span></h3>
+              <p class="work__description">
+                <span style="display: block; margin-bottom: 10px;">Stage Recherche de 6 mois.</span>
+                <span>Explication des détecteurs de concept drifts en utilisant les drifts virtuels (sur la distribution des données).</span>
+              </p>
+              
+              <div class="portfolio__links">
+                <a
+                  href="https://github.com/nchriqui/xai_iot"
+                  class="work__button"
+                >
+                  Code <i class="uil uil-brackets-curly work__icon"></i>
+                </a>
+              </div>
+
+            </div>
+
+            <div class="work__card mix">
+              <img src="assets/img/SeeAble.png" alt="SeeAble" class="work__img" />
+
+              <h3 class="work__title">Generalized deepfake detection <span class="d-block">with self-supervised learning</span></h3>
+              <p class="work__description">
+                Amélioration d'une technique de détection de deepfakes basée sur le self-supervised learning.
+              </p>
+
+              <div class="portfolio__links">
+                <a
+                  href="https://github.com/nchriqui/Seeable_improve"
+                  class="work__button"
+                >
+                  Code <i class="uil uil-brackets-curly work__icon"></i>
+                </a>
+              </div>
+
+            </div>
+
+            <div class="work__card mix">
+              <div class="portfolio__container container mini swiper-container">
+                <div class="swiper-wrapper">
+                  <!--==================== SWIPPER 1 ====================-->
+                  <div class="swiper-slide">
                     <img src="assets/img/reco_window.png" alt="Vue utilisateur" class="work__img" />
                   </div>
-      
-      
-                  <!--==================== PORTFOLIO 2 ====================-->
+            
+                  <!--==================== SWIPPER 2 ====================-->
                   <div class="swiper-slide">
                     <img src="assets/img/manager_window.png" alt="Vue restaurateur" class="work__img" />
-                  </div>
-      
+                  </div>      
                 </div>
 
                 <div class="swiper-button-next" style="visibility: hidden;">
