@@ -761,6 +761,15 @@ use PHPMailer\PHPMailer\PHPMailer;
                 <p class="portfolio__description">
                   Explication des détecteurs de concept drifts en utilisant les drifts virtuels (sur la distribution des données).
                 </p>
+
+                <div class="portfolio__links">
+                  <a
+                    href="https://github.com/nchriqui/xai_iot"
+                    class="work__button"
+                  >
+                    Code <i class="uil uil-brackets-curly work__icon"></i>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -777,6 +786,15 @@ use PHPMailer\PHPMailer\PHPMailer;
                 <p class="portfolio__description">
                   Amélioration d'une technique de détection de deepfakes basée sur le self-supervised learning.
                 </p>
+
+                <div class="portfolio__links">
+                  <a
+                    href="https://github.com/nchriqui/Seeable_improve"
+                    class="work__button"
+                  >
+                    Code <i class="uil uil-brackets-curly work__icon"></i>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -794,6 +812,15 @@ use PHPMailer\PHPMailer\PHPMailer;
                   Aide à la gestion d'un restaurant de type self-service via une solution
                   intelligente alliant traitement d'images et recommandations.
                 </p>
+
+                <div class="portfolio__links">
+                  <a
+                    href="https://github.com/nchriqui/restaurant"
+                    class="work__button"
+                  >
+                    Code <i class="uil uil-brackets-curly work__icon"></i>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -810,7 +837,16 @@ use PHPMailer\PHPMailer\PHPMailer;
                 <p class="portfolio__description">
                   Exploration, visualisation et analyse d'une base de données graph sur des données historiques.
                 </p>
-              </div>
+
+                <div class="portfolio__links">
+                  <a
+                    href="https://github.com/nchriqui/history_graph"
+                    class="work__button"
+                  >
+                    Code <i class="uil uil-brackets-curly work__icon"></i>
+                  </a>
+                </div>
+              </div>              
             </div>
 
           </div>
@@ -948,7 +984,17 @@ use PHPMailer\PHPMailer\PHPMailer;
               <h3 class="work__title">Projet de Laboratoire (2 mois)</h3>
               <p class="work__description"><span style="display: block; margin-bottom: 10px;">Collaboration internationale avec pour objectif la
                 conception et réalisation d'une base de données graph sur des données historiques.</span>
-                <span>Exploration, visualisation et analyse d'une base de données graph sur des données historiques.</span></p>
+                <span>Exploration, visualisation et analyse d'une base de données graph sur des données historiques.</span>
+              </p>
+
+              <div class="portfolio__links">
+                <a
+                  href="https://github.com/nchriqui/history_graph"
+                  class="work__button"
+                >
+                  Code <i class="uil uil-brackets-curly work__icon"></i>
+                </a>
+              </div>
 
             </div>
 
