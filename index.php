@@ -26,7 +26,7 @@ use PHPMailer\PHPMailer\PHPMailer;
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.min.css" />
 
-    <title>Nathan Chriqui - Site web</title>
+    <title>Nathan Chrismant - Site web</title>
   </head>
   <body>
     <!--==================== HEADER ====================-->
@@ -89,21 +89,21 @@ use PHPMailer\PHPMailer\PHPMailer;
           <div class="home__content grid">
             <div class="home__social">
               <a
-                href="https://www.linkedin.com/in/chriqui-nathan/"
+                href="https://www.linkedin.com/in/chrismant-nathan/"
                 target="_blank"
                 class="home__social-icon"
               >
                 <i class="uil uil-linkedin-alt"></i>
               </a>
               <a
-                href="https://github.com/nchriqui"
+                href="https://github.com/nchrismant"
                 target="_blank"
                 class="home__social-icon"
               >
                 <i class="uil uil-github-alt"></i>
               </a>
               <a
-              href="https://gitlab.com/nchriqui"
+              href="https://gitlab.com/nchrismant"
               target="_blank"
               class="home__social-icon"
             >
@@ -183,7 +183,7 @@ use PHPMailer\PHPMailer\PHPMailer;
             </p>
             <div class="about__info">
               <div>
-                <span class="about__info-title">5+</span>
+                <span class="about__info-title">6+</span>
                 <span class="about__info-name"
                   >Années <br />
                   d'expérience</span
@@ -201,8 +201,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 
             <div class="about__buttons">
               <a
-                download="CV_CHRIQUI_Nathan"
-                href="assets/pdf/CV_CHRIQUI_Nathan.pdf"
+                download="CV_CHRISMANT_Nathan"
+                href="assets/pdf/CV_CHRISMANT_Nathan.pdf"
                 class="button button--flex"
               >
                 Télécharger CV <i class="uil uil-download-alt button__icon"></i>
@@ -226,7 +226,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div>
                   <h2 class="skills__title">Développeur</h2>
-                  <span class="skills__subtitle">Plus de 5 ans</span>
+                  <span class="skills__subtitle">Plus de 6 ans</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -294,7 +294,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div>
                   <h2 class="skills__title">Développeur Frontend</h2>
-                  <span class="skills__subtitle">Plus de 4 ans</span>
+                  <span class="skills__subtitle">Plus de 5 ans</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -360,7 +360,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div>
                   <h2 class="skills__title">Développeur Backend</h2>
-                  <span class="skills__subtitle">Plus de 4 ans</span>
+                  <span class="skills__subtitle">Plus de 5 ans</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -764,7 +764,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div class="portfolio__links">
                   <a
-                    href="https://github.com/nchriqui/xai_iot"
+                    href="https://github.com/nchrismant/xai_iot"
                     class="work__button"
                   >
                     Code <i class="uil uil-brackets-curly work__icon"></i>
@@ -789,7 +789,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div class="portfolio__links">
                   <a
-                    href="https://github.com/nchriqui/Seeable_improve"
+                    href="https://github.com/nchrismant/Seeable_improve"
                     class="work__button"
                   >
                     Code <i class="uil uil-brackets-curly work__icon"></i>
@@ -815,7 +815,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div class="portfolio__links">
                   <a
-                    href="https://github.com/nchriqui/restaurant"
+                    href="https://github.com/nchrismant/restaurant"
                     class="work__button"
                   >
                     Code <i class="uil uil-brackets-curly work__icon"></i>
@@ -840,7 +840,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
                 <div class="portfolio__links">
                   <a
-                    href="https://github.com/nchriqui/history_graph"
+                    href="https://github.com/nchrismant/history_graph"
                     class="work__button"
                   >
                     Code <i class="uil uil-brackets-curly work__icon"></i>
@@ -910,7 +910,7 @@ use PHPMailer\PHPMailer\PHPMailer;
               
               <div class="portfolio__links">
                 <a
-                  href="https://github.com/nchriqui/xai_iot"
+                  href="https://github.com/nchrismant/xai_iot"
                   class="work__button"
                 >
                   Code <i class="uil uil-brackets-curly work__icon"></i>
@@ -929,7 +929,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
               <div class="portfolio__links">
                 <a
-                  href="https://github.com/nchriqui/Seeable_improve"
+                  href="https://github.com/nchrismant/Seeable_improve"
                   class="work__button"
                 >
                   Code <i class="uil uil-brackets-curly work__icon"></i>
@@ -969,7 +969,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
               <div class="portfolio__links">
                 <a
-                  href="https://github.com/nchriqui/restaurant"
+                  href="https://github.com/nchrismant/restaurant"
                   class="work__button"
                 >
                   Code <i class="uil uil-brackets-curly work__icon"></i>
@@ -989,7 +989,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
               <div class="portfolio__links">
                 <a
-                  href="https://github.com/nchriqui/history_graph"
+                  href="https://github.com/nchrismant/history_graph"
                   class="work__button"
                 >
                   Code <i class="uil uil-brackets-curly work__icon"></i>
@@ -1006,14 +1006,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
               <div class="portfolio__links">
                 <a
-                  href="https://24hweather.alwaysdata.net/"
-                  class="work__button"
-                >
-                  Visiter <i class="uil uil-angle-right-b work__icon"></i>
-                </a>
-
-                <a
-                  href="https://github.com/nchriqui/24hWeather"
+                  href="https://github.com/nchrismant/24hWeather"
                   class="work__button"
                 >
                   Code <i class="uil uil-brackets-curly work__icon"></i>
@@ -1031,16 +1024,12 @@ use PHPMailer\PHPMailer\PHPMailer;
               </p>
 
               <div class="portfolio__links">
-                <a href="https://footista.alwaysdata.net/" class="work__button">
-                  Visiter <i class="uil uil-angle-right-b work__icon"></i>
-                </a>
-
                 <span class="work__button services__button">
                   Démo <i class="uil uil-presentation-play work__icon"></i>
                 </span>
 
                 <a
-                  href="https://github.com/nchriqui/Footista"
+                  href="https://github.com/nchrismant/Footista"
                   class="work__button"
                 >
                   Code <i class="uil uil-brackets-curly work__icon"></i>
@@ -1074,16 +1063,12 @@ use PHPMailer\PHPMailer\PHPMailer;
               </p>
 
               <div class="portfolio__links">
-                <a href="https://cieflix.alwaysdata.net/" class="work__button">
-                  Visiter <i class="uil uil-angle-right-b work__icon"></i>
-                </a>
-
                 <span class="work__button services__button">
                   Démo <i class="uil uil-presentation-play work__icon"></i>
                 </span>
 
                 <a
-                  href="https://github.com/nchriqui/Cineflix"
+                  href="https://github.com/nchrismant/Cineflix"
                   class="work__button"
                 >
                   Code <i class="uil uil-brackets-curly work__icon"></i>
@@ -1122,7 +1107,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                   Démo <i class="uil uil-presentation-play work__icon"></i>
                 </span>
 
-                <a href="https://github.com/nchriqui/Go" class="work__button">
+                <a href="https://github.com/nchrismant/Go" class="work__button">
                   Code <i class="uil uil-brackets-curly work__icon"></i>
                 </a>
               </div>
@@ -1167,7 +1152,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
               <div>
                 <h3 class="contact__title">Email</h3>
-                <span class="contact__subtitle">nathanchriqui1@gmail.com</span>
+                <span class="contact__subtitle">nathanchrismant1@gmail.com</span>
               </div>
             </div>
 
@@ -1268,14 +1253,14 @@ use PHPMailer\PHPMailer\PHPMailer;
 
           <div class="footer__socials">
             <a
-              href="https://www.linkedin.com/in/chriqui-nathan/"
+              href="https://www.linkedin.com/in/chrismant-nathan/"
               target="_blank"
               class="footer__social"
             >
               <i class="uil uil-linkedin-alt"></i>
             </a>
             <a
-              href="https://github.com/nchriqui"
+              href="https://github.com/nchrismant"
               target="_blank"
               class="footer__social"
             >

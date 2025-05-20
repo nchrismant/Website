@@ -26,11 +26,11 @@ class Mail {
      * @param  string $subject Sujet du mail
      * @return void
      */
-    public function sendMail(string $body, string $from, string $fromName, string $to='nathanchriqui1@gmail.com', string $subject='Contact Portfolio') : void
+    public function sendMail(string $body, string $from, string $fromName, string $to='nathanchrismant1@gmail.com', string $subject='Contact Portfolio') : void
     {
 
         $this->mail->IsSMTP();
-        $this->mail->Host = 'smtp-nchriqui.alwaysdata.net';               //Adresse IP ou DNS du serveur SMTP
+        $this->mail->Host = 'smtp-nchrismant.alwaysdata.net';               //Adresse IP ou DNS du serveur SMTP
         $this->mail->Port = 465;                          //Port TCP du serveur SMTP
         $this->mail->SMTPAuth = 1;                        //Utiliser l'identification
         $this->mail->CharSet = 'UTF-8';

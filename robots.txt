@@ -434,4 +434,4 @@ Disallow: /
 User-agent: *
 Disallow: /class/
 
-Sitemap: https://nchriqui.alwaysdata.net/sitemap.xml
+Sitemap: https://nchrismant.alwaysdata.net/sitemap.xml
