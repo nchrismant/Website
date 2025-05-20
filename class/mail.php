@@ -41,8 +41,11 @@ class Mail {
             $this->mail->Password   =  PortfolioConf::$smtpPassword;         //Mot de passe de l'adresse email à utiliser
         }
            
-        $this->mail->setFrom(trim($from), $fromName);                //L'email à afficher pour l'envoi
+        // $this->mail->setFrom(trim($from), $fromName);                //L'email à afficher pour l'envoi
         
+        $this->mail->setFrom('no-reply@nchrismant.alwaysdata.net', $fromName);
+        $this->mail->addReplyTo(trim($from), $fromName);
+
         $this->mail->AddAddress($to);
 
         $this->mail->isHTML(true);      
