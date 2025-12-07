@@ -191,7 +191,7 @@ use PHPMailer\PHPMailer\PHPMailer;
               </div>
 
               <div>
-                <span class="about__info-title">8+</span>
+                <span class="about__info-title">14+</span>
                 <span class="about__info-name"
                   >Projets <br />
                   réalisés</span
@@ -201,11 +201,19 @@ use PHPMailer\PHPMailer\PHPMailer;
 
             <div class="about__buttons">
               <a
-                download="CV_CHRISMANT_Nathan"
-                href="assets/pdf/CV_CHRISMANT_Nathan.pdf"
+                download="CV_CHRISMANT_Nathan_Data_Scientist_ML_IA"
+                href="assets/pdf/CV_CHRISMANT_Nathan_Data_Scientist_ML_IA.pdf"
+                class="button button--flex"
+                style="margin-right: 10px;"
+              >
+                Télécharger CV Data Scientist<i class="uil uil-download-alt button__icon"></i>
+              </a>
+              <a
+                download="CV_CHRISMANT_Nathan_Data_Analyst"
+                href="assets/pdf/CV_CHRISMANT_Nathan_Data_Analyst.pdf"
                 class="button button--flex"
               >
-                Télécharger CV <i class="uil uil-download-alt button__icon"></i>
+                Télécharger CV Data Analyst<i class="uil uil-download-alt button__icon"></i>
               </a>
             </div>
           </div>
@@ -509,7 +517,36 @@ use PHPMailer\PHPMailer\PHPMailer;
             <!--==================== QUALIFICATION CONTENT 2 ====================-->
             <div class="qualification__content" data-content="data-content" id="work">
 
+
               <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                
+                <div>
+                  <h3 class="qualification__title">Indépendant <span class="d-block">Directeur de TD Informatique</span></h3>
+                  <span class="qualification__subtitle"
+                    >France - École Supérieure Pour les Talents Atypiques</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Septembre 2025 - Juin 2026
+                  </div>
+                </div>
+
+                <div></div>
+
+                <!-- <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div> -->
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
               <div class="qualification__data">
                 <div>
                   <h3 class="qualification__title">Stage Recherche</h3>
@@ -528,7 +565,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                 </div>
               </div>
 
-              <!--==================== QUALIFICATION 2 ====================-->
+              <!--==================== QUALIFICATION 3 ====================-->
               <div class="qualification__data">
                 <div></div>
 
@@ -995,7 +1032,165 @@ use PHPMailer\PHPMailer\PHPMailer;
                   Code <i class="uil uil-brackets-curly work__icon"></i>
                 </a>
               </div>
+            </div>
 
+            <div class="work__card mix">
+              <div class="portfolio__container container mini swiper-container">
+                <div class="swiper-wrapper">
+                  <!--==================== SWIPPER 1 ====================-->
+                  <div class="swiper-slide">
+                    <img src="assets/img/graph_model.png" alt="Modèle base de données graphe" class="work__img" />
+                  </div>
+            
+                  <!--==================== SWIPPER 2 ====================-->
+                  <div class="swiper-slide">
+                    <img src="assets/img/relational_model.png" alt="Modèle base de données relationnelle" class="work__img" />
+                  </div>      
+                </div>
+
+                <div class="swiper-button-next" style="visibility: hidden;">
+                  <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev" style="visibility: hidden;">
+                  <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+      
+                <div class="swiper-pagination no-abs"></div>
+              </div>
+
+              <h3 class="work__title">Graph vs Relational Databases</h3>
+              <p class="work__description">Comparaison entre base de données relationnelle et base de données graphe (Neo4j).</p>
+
+              <div class="portfolio__links">
+                <a
+                  href="https://github.com/nchrismant/graph_or_relational"
+                  class="work__button"
+                >
+                  Code <i class="uil uil-brackets-curly work__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="work__card mix logiciel">
+              <div class="portfolio__container container mini swiper-container">
+                <div class="swiper-wrapper">
+                  <!--==================== SWIPPER 1 ====================-->
+                  <div class="swiper-slide">
+                    <img src="assets/img/mediator.png" alt="Médiateur" class="work__img" />
+                  </div>
+            
+                  <!--==================== SWIPPER 2 ====================-->
+                  <div class="swiper-slide">
+                    <img src="assets/img/talend.png" alt="Talend" class="work__img" />
+                  </div>      
+                </div>
+
+                <div class="swiper-button-next" style="visibility: hidden;">
+                  <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev" style="visibility: hidden;">
+                  <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+      
+                <div class="swiper-pagination no-abs"></div>
+              </div>
+
+              <h3 class="work__title">Médiateur de données</h3>
+              <p class="work__description">Médiateur de données permettant de centraliser et interroger plusieurs sources d'information sur les films : base locale, DBpedia et Open Movie Database.</p>
+
+              <div class="portfolio__links">
+                <a
+                  href="https://github.com/nchrismant/movies_mediator"
+                  class="work__button"
+                >
+                  Code <i class="uil uil-brackets-curly work__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="work__card mix logiciel">
+              <img src="assets/img/tahiti.png" alt="Tahiti" class="work__img" />
+
+              <h3 class="work__title">Système de recommandations à Tahiti</h3>
+              <p class="work__description">Mini système intelligent permettant de construire automatiquement les offres de séjour pour une destination de voyage (dans notre cas l'île de Tahiti).</p>
+
+              <div class="portfolio__links">
+                <a
+                  href="https://github.com/nchrismant/tahiti_recommendation"
+                  class="work__button"
+                >
+                  Code <i class="uil uil-brackets-curly work__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="work__card mix">
+              <div class="portfolio__container container mini swiper-container">
+                <div class="swiper-wrapper">
+                  <!--==================== SWIPPER 1 ====================-->
+                  <div class="swiper-slide">
+                    <img src="assets/img/route.png" alt="Route" class="work__img" />
+                  </div>
+            
+                  <!--==================== SWIPPER 2 ====================-->
+                  <div class="swiper-slide">
+                    <img src="assets/img/route_opti.png" alt="Route opti" class="work__img" />
+                  </div>      
+                </div>
+
+                <div class="swiper-button-next" style="visibility: hidden;">
+                  <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev" style="visibility: hidden;">
+                  <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+      
+                <div class="swiper-pagination no-abs"></div>
+              </div>
+
+              <h3 class="work__title">Suivi de Ligne</h3>
+              <p class="work__description">Robot autonome capable de suivre une ligne grâce à un système de vision embarqué (OpenCV sur Raspberry Pi), une communication série et un contrôle moteur via Arduino.</p>
+
+              <div class="portfolio__links">
+                <a
+                  href="https://github.com/nchrismant/auto_robot"
+                  class="work__button"
+                >
+                  Code <i class="uil uil-brackets-curly work__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="work__card mix logiciel">
+              <img src="assets/img/Explorateurs.png" alt="Explorateurs" class="work__img" />
+
+              <h3 class="work__title">Explorateurs</h3>
+              <p class="work__description">Simulation / jeu inspiré de jeux comme Curious Expedition développé en multi-threading.</p>
+
+              <div class="portfolio__links">
+                <a
+                  href="https://github.com/nchrismant/explorateurs"
+                  class="work__button"
+                >
+                  Code <i class="uil uil-brackets-curly work__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="work__card mix logiciel">
+              <img src="assets/img/AutoEcole.png" alt="Auto ecole" class="work__img" />
+
+              <h3 class="work__title">AutoEcole</h3>
+              <p class="work__description">Application Java ludique et pédagogique visant à simuler le passage du permis de conduire.</p>
+
+              <div class="portfolio__links">
+                <a
+                  href="https://github.com/nchrismant/AutoEcole"
+                  class="work__button"
+                >
+                  Code <i class="uil uil-brackets-curly work__icon"></i>
+                </a>
+              </div>
             </div>
 
             <div class="work__card mix web">
